@@ -1,0 +1,1 @@
+savedcmd_hello_kernel.ko := x86_64-linux-gnu-ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-6.18.3+kali+1-amd64/arch/x86/module.lds -o hello_kernel.ko hello_kernel.o hello_kernel.mod.o .module-common.o
